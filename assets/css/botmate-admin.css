@@ -1,0 +1,116 @@
+/*Global Styling Starts*/
+.botmate input {
+    padding: 2px 6px;
+    border-color: #cbcbcb;
+    width: 200px;
+}
+
+.botmate input[type=checkbox],
+.botmate input[type=radio],
+.botmate input[type=submit]{
+    /* padding: inherit; */
+    border-color: initial;
+    width: auto;
+}
+
+.botmate span.select2-selection {
+    padding: 2px 6px;
+    border-color: #cbcbcb;
+}
+
+.botmate .select2-container {
+    width: 200px!important;
+}
+
+.botmate .button.button-primary {
+    background: #f56c6c;
+    vertical-align: middle;
+    border-color: #f56c6c;
+}
+
+.botmate .button.button-secondary {
+    border-color: #ff1a00;
+    vertical-align: middle;
+    color: red;
+}
+
+.botmate label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bm-mr-tb-15 {
+    margin: 15px 0;
+}
+
+.bm-loader {
+    border: 4px solid transparent;
+    border-radius: 50%;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    width: 15px;
+    height: 15px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+    margin-top: -4px;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*Global Styling Ends*/
+
+/*Dashboard Page Starts*/
+.bm-logo b {
+    font-size: 40px;
+}
+
+.bm-logo sup {
+    font-size: 12px;
+    font-weight: bold;
+}
+.bm-working {
+    margin: 50px 0;
+    border: 1px solid;
+}
+/*Dashboard Page Ends*/
+
+.bm-site-configuration {
+    border: 1px solid #0fb779;
+    margin: 10px 0;
+    padding: 25px;
+}
+
+.bm-trigger-row label {
+    text-transform: capitalize;
+}
+
+.bm-trigger-config td {
+    width: 30%;
+}
+
+/*Logs Page Starts*/
+.botmate .column-session_transcript {
+    text-align: center;
+}
+
+.botmate .column-transaction_type {
+    text-transform: capitalize;
+}
+
+.botmate .column-transaction_type .bm-request-icon {
+    font-size: 13px;
+    vertical-align: -webkit-baseline-middle;
+}
+/*Logs Page Ends*/
